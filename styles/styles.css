@@ -1,4 +1,11 @@
-h1{
-    color: blueviolet;
+.hero{
+    background: rgb(68, 210, 242, .4);
     font-family: montserrat;
+    text-align: center;
+    opacity: px;
+   
+}
+.btn-info{
+    background: white;
+    color:#44D2F2
 }
