@@ -1,9 +1,30 @@
-.hero{
-    background: rgb(68, 210, 242, .4);
-    font-family: montserrat;
+body{
+
+    background: black;
+    padding-left: 0px;
+}
+h1{
+    color: white;
     text-align: center;
-    opacity: px;
+    font-family: montserrat;
+    padding-top: 20px;
+}
+p{
+    color: white;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.photos{
+    max-width: 486px;
+    max-height: 380px;
    
+   
+}
+.photo-group{
+    margin-top: 60px;
+    margin-left: 20px;
+
 }
 .btn-info{
     background: white;
