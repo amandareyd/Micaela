@@ -4,6 +4,7 @@ body{
     margin-left: 0px;
     font-family: 'Montserrat', sans-serif;;
 }
+
 h1{
     color: white;
     text-align: center;
@@ -16,10 +17,26 @@ p{
    margin: 30px 80px;
 }
 
+.container{ 
+    padding-top:  40px;
+    max-width: 1440px;
+    max-height: 900px;
+    padding-right: 70px;
+}
+.navbar-brand {
+    color: #E4559D;
+}
+.nav-link{
+    color: #E4559D;
+}
+#home-link{
+    color: #E4559D;
+}
+
 .photos{
     max-width: 486px;
     max-height: 380px;
-   
+    padding-bottom: 25px;
    
 }
 .photo-group{
@@ -30,6 +47,8 @@ p{
 .btn-outline-light{
     
     color:#E4559D;
-    
-   
+}
+img{
+    max-width: 100%;
+    height:auto;
 }
