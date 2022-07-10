@@ -1,54 +1,45 @@
-body{
+:root{
+    --primary-color:#E4559D;
 
+}
+body{
     background: black;
-    margin-left: 0px;
     font-family: 'Montserrat', sans-serif;;
 }
 
 h1{
     color: white;
     text-align: center;
-    font-family: montserrat;
     padding-top: 40px;
+    padding-bottom: 10px;
 }
 p{
     color: white;
     text-align: center;
    margin: 30px 80px;
 }
+.container{
+    padding-top: 100px;
 
-.container{ 
-    padding-top:  40px;
-    max-width: 1440px;
-    max-height: 900px;
-    padding-right: 70px;
 }
-.navbar-brand {
-    color: #E4559D;
+
+.button {
+    color: var(--primary-color)
 }
 .nav-link{
-    color: #E4559D;
+    color: var(--primary-color)
 }
 #home-link{
-    color: #E4559D;
+    color: var(--primary-color)
 }
-
-.photos{
-    max-width: 486px;
-    max-height: 380px;
-    padding-bottom: 25px;
-   
-}
-.photo-group{
-    margin-top: 60px;
-    margin-left: 20px;
+.navbar-toggler{
+    color: var(--primary-color)
 
 }
-.btn-outline-light{
-    
-    color:#E4559D;
+.navbar-brand
+{
+    color:var(--primary-color)
 }
-img{
-    max-width: 100%;
-    height:auto;
-}
+
+
+
