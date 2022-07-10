@@ -1,18 +1,19 @@
 body{
 
     background: black;
-    padding-left: 0px;
+    margin-left: 0px;
+    font-family: 'Montserrat', sans-serif;;
 }
 h1{
     color: white;
     text-align: center;
     font-family: montserrat;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 p{
     color: white;
     text-align: center;
-    margin: 20px 30px;
+   margin: 30px 80px;
 }
 
 .photos{
@@ -26,7 +27,9 @@ p{
     margin-left: 20px;
 
 }
-.btn-info{
-    background: white;
-    color:#44D2F2
+.btn-outline-light{
+    
+    color:#E4559D;
+    
+   
 }
