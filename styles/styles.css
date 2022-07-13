@@ -55,11 +55,10 @@ body{
 }
 .about-section p{
     color:var(--secondary-color);
+    font-size: 13px;
 
 }
-.about-section p{
-    font-size: 15px;
-}
+
 .btn-outline-secondary{
     color: var(--primary-color);
 }
