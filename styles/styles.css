@@ -61,7 +61,11 @@ body{
     font-size: 13.5px;
 
 }
+.socials{
+    
+    color: var(--secondary-color);
 
+}
 
 .btn-outline-secondary{
     color: var(--primary-color);
