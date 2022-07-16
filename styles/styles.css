@@ -42,26 +42,30 @@ body{
     color:var(--primary-color)
 }
 
-.about-section h1{
+.content-container h1{
     font-size: 54px;
     line-height: 60px;
     color: var(--secondary-color);
 }
-.about-section h2{
+.content-container h2{
     font-size: 24px;
     font-weight: 700px;
    color: var(--secondary-color) ;
 
 }
-.about-section p{
+.content-container h3{
+    color: var(--primary-color);
+}
+.content-container p{
     color:var(--secondary-color);
-    font-size: 13px;
+    font-size: 13.5px;
 
 }
+
 
 .btn-outline-secondary{
     color: var(--primary-color);
 }
 @media (max-width: 900px){
-    .about-section{ text-align: center;}
+    .content-container{ text-align: center;}
 }
