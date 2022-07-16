@@ -27,20 +27,7 @@ body{
 .button {
     color: var(--primary-color)
 }
-.nav-link{
-    color: var(--primary-color)
-}
-#home-link{
-    color: var(--primary-color)
-}
-.navbar-toggler{
-    color: var(--primary-color)
 
-}
-.navbar-brand
-{
-    color:var(--primary-color)
-}
 
 .content-container h1{
     font-size: 54px;
