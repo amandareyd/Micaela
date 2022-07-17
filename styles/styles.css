@@ -7,6 +7,38 @@ body{
     background: black;
     font-family: 'Montserrat', sans-serif;;
 }
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+    background: transparent;
+}
+nav{    padding: 20px 0;
+    
+        background-color: black;
+      
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 52px;
+    margin-left: 10px;
+   
+}
+nav a{ 
+    color: var(--secondary-color);
+    text-decoration: none;
+
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+nav li.active a,nav a:hover {
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+
 
 .hero h1{
     color: white;
@@ -23,6 +55,10 @@ body{
     padding-top: 100px;
 
 }
+.nav-container{
+    padding-top: 25px;
+}
+
 
 .button {
     color: var(--primary-color)
@@ -59,4 +95,5 @@ body{
 }
 @media (max-width: 900px){
     .content-container{ text-align: center;}
+   
 }
