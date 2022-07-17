@@ -37,9 +37,32 @@ nav ul{
 nav li.active a,nav a:hover {
     color: var(--primary-color);
     transition: all 100ms ease-in-out;
+
 }
+footer{
+    margin:60px 0;
+}
+footer .email-link{
+    text-decoration: none;
+    color:var(--primary-color);
+    font-size: 18px;
+    text-align:center;
 
-
+}
+footer .email-link:hover{
+    color: var(--secondary-color);
+}
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--primary-color);
+   
+    padding: 10px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: var(--secondary-color);
+}
 .hero h1{
     color: white;
     text-align: center;
