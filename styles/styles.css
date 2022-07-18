@@ -8,8 +8,8 @@ body{
     font-family: 'Montserrat', sans-serif;;
 }
 .logo{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 70px;
+    max-height: 70px;
     background: transparent;
 }
 nav{    padding: 20px 0;
@@ -39,30 +39,7 @@ nav li.active a,nav a:hover {
     transition: all 100ms ease-in-out;
 
 }
-footer{
-    margin:60px 0;
-}
-footer .email-link{
-    text-decoration: none;
-    color:var(--primary-color);
-    font-size: 18px;
-    text-align:center;
 
-}
-footer .email-link:hover{
-    color: var(--secondary-color);
-}
-footer .social-links a{
-    margin: 0 20px;
-    color: var(--primary-color);
-   
-    padding: 10px;
-    font-size: 18px;
-    transition: all 100ms ease-in-out;
-}
-footer .social-links a:hover{
-    color: var(--secondary-color);
-}
 .hero h1{
     color: white;
     text-align: center;
@@ -75,7 +52,7 @@ footer .social-links a:hover{
    margin: 30px 80px;
 }
 .container{
-    padding-top: 100px;
+    padding-top: 60px;
 
 }
 .nav-container{
@@ -107,6 +84,37 @@ footer .social-links a:hover{
     font-size: 13.5px;
 
 }
+footer{
+    margin:60px 0;
+}
+footer .email-link{
+    text-decoration: none;
+    color:var(--primary-color);
+    font-size: 22px;
+    text-align:center;
+
+}
+footer .email-link:hover{
+    color: var(--secondary-color);
+}
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--primary-color);
+   
+    padding: 10px;
+    font-size: 28px;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: var(--secondary-color);
+}
+footer .code-source, a{
+    text-decoration: none;
+    color: grey;
+}
+footer .code-source a:hover{
+    color: var(--primary-color);
+}
 .socials{
     
     color: var(--secondary-color);
@@ -115,8 +123,15 @@ footer .social-links a:hover{
 
 .btn-outline-secondary{
     color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+.btn-outline-secondary:hover{
+    background: var(--primary-color);
 }
 @media (max-width: 900px){
     .content-container{ text-align: center;}
+    .content-container p{
+        font-size: 10px;
+    }
    
 }
